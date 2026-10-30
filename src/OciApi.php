@@ -94,6 +94,9 @@ class OciApi
     }
 }
 EOD;
+        echo "\n========== DEBUG PAYLOAD BODY SENT ==========\n";
+        echo $body . "\n";
+        echo "=============================================\n\n";
 
         $baseUrl = "{$this->getBaseApiUrl($config)}/instances/";
 
